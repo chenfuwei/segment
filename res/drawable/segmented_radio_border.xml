@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@android:color/transparent" />
+
+    <padding
+        android:bottom="@dimen/segmented_radio_border_width"
+        android:left="@dimen/segmented_radio_border_width"
+        android:right="@dimen/segmented_radio_border_width"
+        android:top="@dimen/segmented_radio_border_width" />
+
+    <stroke
+        android:width="@dimen/segmented_radio_border_width"
+        android:color="@color/segmented_radio_border" />
+
+    <corners android:radius="5dp" />
+
+</shape>
